@@ -1,0 +1,20 @@
+# Core LangChain framework
+langchain>=0.3.25
+langchain-core>=0.3.50
+langchain-community>=0.3.20
+
+# Google Gemini integration (uses gemini-2.5-flash)
+langchain-google-genai>=2.1.0
+
+# Environment variable loading
+python-dotenv>=1.1.0
+
+# Web search tool for Module 3
+tavily-python>=0.5.0
+
+# Data validation (used for structured output)
+pydantic>=2.11.0
+
+# Testing libraries
+pytest>=8.3.0
+pytest-mock>=3.14.0

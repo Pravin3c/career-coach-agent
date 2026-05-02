@@ -167,6 +167,18 @@ venv.bak/
 # mkdocs documentation
 /site
 
+# Never commit secrets
+
+# Never commit the virtual environment
+.venv/
+
+.idea/
+# Auto-generated Python files
+*.pyc
+
+# macOS system files
+.DS_Store
+
 # mypy
 .mypy_cache/
 .dmypy.json
